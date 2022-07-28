@@ -1,0 +1,61 @@
+.h{font-family:impact;font-size:100px;}
+/* Center the loader */
+#loader{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border: 16px solid #f3f3f3;
+    border-radius:50%;
+    border-top: 16px solid #799;
+    border-right: 16px solid #999;
+    border-bottom: 16px solid #c99;
+    border-left: 16px solid #e99;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    }
+    @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+    }
+    @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+    }
+    body{
+        position: relative;
+        background-color: #000000;
+        color: red;
+        animation-name: example;
+        animation-iteration-count: infinite;
+        animation-duration: 4s;
+        animation-delay: 2s;
+        text-align: center;
+        background-image: url("../images/background_images/intor11.gif") ;
+        //background-size: cover;
+        height: 100vh;
+        padding:0;
+        margin:0;
+    }
+    audio {
+      width: 400px;
+    }
+  /* Chrome, Safari, Opera */
+  @-webkit-keyframes example {
+    0%{color: red;}
+    25% {color: yellow;}
+    50% {color: aqua;}
+    100% {color: limegreen;}
+    }
+    /* Standard syntax */
+    @keyframes example {
+    0%{color: red;}
+    25% {color: yellow;}
+    50% {color: aqua;}
+    100% {color: limegreen;}
+    }

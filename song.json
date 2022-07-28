@@ -1,0 +1,9 @@
+// Define the list of tracks that have to be played 
+var songs = [ "Ako'y_Maghihintay_Sa_Iyong_Pagliligtas_Resonate.ogg", "Awit_Ng_Anak.ogg", "CMV_Spotlight_Performance_by_Aira_Soriano_Ang_Sugo.ogg", "CMV_Spotlight_Performance_by_Chadleen_Lacdo_o_Ako'y_Iyong_Ihatid_Sa_Bayang_B.ogg", "I_am_Strong_by_Chiarra_Dabu.ogg", "Iyong Dinadalisay CMV Spotlight Performance.ogg", 
+"Landas Ng Buhay Music Video.ogg", "Mailyn_Timon_Pilar,_Leyte_West_Ama,_Kami_A-382.ogg", 
+"Nakipagtipan ang Diyos CMV.ogg", "Pag-Ibig Sa Iglesia   Sophia Alexis Ramos.ogg", "Sasalubong_Ako_Sa_Iyo_Aking_Jesus.ogg", "Spotlight_MAGBABAGONG-BUHAY.ogg", "SPOTLIGHT_Tanda_Ng_Pagibig_Ng_Ama.ogg", "SPOTLIGHTNgayon Na.ogg", 
+"TITIBO-TIBOINC VERSIONCOVER.ogg"];  
+
+// Artists
+var songartist = ["INC MUSIC", "Haylee Ramos", "Aira Soriano", "Chadleen Lacdo o", "Chiarra Dabu", 
+"Marielle Guillemer", "INC MUSIC", "Mailyn Timon", "Chadleen Lacdo o", "Sophia Alexis Ramos", "Haylee Ramos", "Marielle Guillemer", "Marielle Guillemer", "Marjoley Dela Cruz", "Cariza Magpantay"];
